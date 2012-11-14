@@ -1,0 +1,46 @@
+@import "components/bootstrap/less/bootstrap.less";
+@import "components/bootstrap/less/responsive.less";
+
+// --------------------------
+// bootstrap overrides
+
+@iconSpritePath:      "../images/glyphicons-halflings.png";
+@iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
+
+// --------------------------
+// app styles
+
+body {
+    background-color: #eee;
+}
+label {
+    font-weight: bold;
+}
+thead th, tbody td {
+    padding: 5px;
+}
+thead tr {
+    background-color: #ddd;
+}
+thead tr th {
+    text-align: left;
+}
+tbody tr:nth-child(odd) {
+    background-color: #cfefff;
+}
+tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+
+#content {
+    padding: 10px;
+    margin-top: 30px;
+}
+#dashboard {
+    background-color: #fff;
+}
+
+.row.button-row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

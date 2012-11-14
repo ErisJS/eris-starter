@@ -1,0 +1,13 @@
+{
+  "name": "eris-starter",
+  "version": "1.0.0",
+  "main": [],
+  "dependencies": {
+    "bootstrap": "",
+    "jquery": "",
+    "json2": "",
+    "requirejs": ""
+  },
+  "shim": {
+  }
+}
